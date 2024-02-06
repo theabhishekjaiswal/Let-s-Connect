@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/crete_round"
+            android:gravity="center"
+            android:text="@string/your_profile"
+            android:textColor="@color/orange"
+            android:textSize="24sp" />
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_baseline_person_24"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:foreground="@drawable/edittext"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Name SetUp-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/name"
+                android:layout_margin="8dp"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/crete_round"/>
+            <!-- Email SetUp-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_address"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:id="@+id/emailid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textColor="#61677A"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+            <!-- Phone Number SetUp-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_number"
+                    android:layout_margin="8dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:id="@+id/contactNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textColor="#61677A"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shaper"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599931147071",
+    "project_id": "lets-connect-e05b6",
+    "storage_bucket": "lets-connect-e05b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599931147071:android:a58c9b27f375a32c05b98a",
+        "android_client_info": {
+          "package_name": "com.theakj.letsconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSHwwOOwArmotfxNFNTdRCtu9XnHp82ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Let\'s Connect</string>
+    <string name="welcome_note"> Connect and \n share \n moments instantly</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="login">Login</string>
+    <string name="email">   Email</string>
+    <string name="password">   Password</string>
+    <string name="don_t_have_a_account_sign_up">Don\'t have a account? Sign Up </string>
+    <string name="create_an_account">Create an account</string>
+    <string name="name">Name</string>
+    <string name="already_have_an_acount_sign_in">Already have an acount? Sign in</string>
+    <string name="join">Join</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="about">About us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abhishek_jaiswal">Abhishek Jaiswal</string>
+    <string name="logout">Logout</string>
+    <string name="email_address">Email Address :</string>
+    <string name="contact_number">Contact Number :</string>
+    <string name="contact_number2">Contact Number</string>
+    <string name="show_off_ke_liye_lagaye_hai_ye_photo">Show off ke liye lagaye hai ye photo :)</string>
+    <string name="about_the_developer">About the Developer</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="aboutme">👋 Hello, I\'m Abhishek Jaiswal, an enthusiastic Android developer currently pursuing my B.Tech in Electronics and Communication Engineering from Heritage Institute of Technology. With a passion for crafting innovative and user-friendly mobile applications, I thrive on transforming ideas into digital experiences.</string>
+    <string name="connect_with_me">Connect with me: </string>
+    <string name="tech_stack_of_this_project">Tech Stack of this Project: </string>
+    <string name="enter_secret_code">Enter Secret Code</string>
+</resources>

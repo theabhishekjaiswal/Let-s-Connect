@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@color/white"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/crete_round"
+                android:gravity="center"
+                android:text="@string/about_the_developer"
+                android:textColor="@color/orange"
+                android:textSize="24sp" />
+            <ImageView
+                android:id="@+id/pp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/mypic"
+                android:padding="16dp"
+                android:layout_margin="8dp"
+                android:foreground="@drawable/edittext"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_off_ke_liye_lagaye_hai_ye_photo"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- Name SetUp-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/name"
+                    android:text="@string/abhishek_jaiswal"
+                    android:layout_margin="8dp"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/crete_round"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutme"
+                    android:gravity="center"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connect_with_me"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="24sp"
+                    android:layout_margin="8dp"
+                    />
+                <!-- Social Icon -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_margin="4dp"
+
+                    >
+                    <ImageView
+                        android:id="@+id/insta"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/instaicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:id="@+id/whatsapp"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/whatsappicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:id="@+id/linkedin"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/linkedinicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:id="@+id/github"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/githubicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tech_stack_of_this_project"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="24sp"
+                   android:layout_margin="8dp"
+                    />
+
+                <!-- Tech Stack-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_margin="4dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/firebaseicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/androidstudioicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/javaicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/xmlicon"
+                        android:layout_marginEnd="16dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/crete_round"
+                    android:textSize="24sp"
+                    android:layout_marginTop="4dp"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginPage"
+    android:background="@color/white"
+    >
+
+    <!-- Title Bar-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/crete_round"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+    <!-- Login Animation-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/login"
+        android:layout_below="@id/title"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+    <!-- Login Menu -->
+
+        <LinearLayout
+            android:id="@+id/logincard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/animation"
+            android:orientation="vertical"
+            android:background="@drawable/edittext"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@color/orange"
+                android:textSize="32sp"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/crete_round"
+                />
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:hint="@string/email"
+                android:textColor="@color/black"
+                android:background="@drawable/edittext"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="20dp"
+                android:padding="8dp"
+                android:textColorHint="#FF837E7E"
+                />
+            <EditText
+                android:id="@+id/passwordBox"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:hint="@string/password"
+                android:textColorHint="#FF837E7E"
+                android:textColor="@color/black"
+                android:background="@drawable/edittext"
+                android:padding="8dp"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="20dp"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shaper"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:layout_margin="8dp"
+                />
+
+            <TextView
+                android:id="@+id/signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/don_t_have_a_account_sign_up"
+                android:textAlignment="textEnd"
+                android:layout_margin="4dp"
+                />
+        </LinearLayout>
+
+
+</RelativeLayout>

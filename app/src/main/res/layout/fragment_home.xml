@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home"
+    android:background="@color/white"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/edittext"
+            android:layout_margin="16dp"
+            android:padding="4dp"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/crete_round"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/orange"
+                android:textSize="24sp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:lottie_rawRes="@raw/videoani"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                />
+            <EditText
+                android:id="@+id/secretCode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/edittext"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:hint="@string/enter_secret_code"
+                android:textColorHint="#837E7E"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/joinBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shaper"
+                android:text="@string/join"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
